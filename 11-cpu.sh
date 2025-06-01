@@ -1,7 +1,7 @@
 #!/bin/bash -x
 
 # Set threshold
-THRESHOLD=3
+THRESHOLD=90
 
 # Get CPU utilization (user + system usage)
 CPU_USAGE=$(top -bn1 | grep "Cpu(s)" | \
